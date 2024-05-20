@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class diaDezessete {
   public static void main(String[] args) {
-    one();
+
   }
 
   public static void one() {
