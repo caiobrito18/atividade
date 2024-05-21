@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class diaDezessete {
+public class DiaDezessete {
   public static void main(String[] args) {
-
+    two();
   }
 
   public static void one() {
@@ -20,6 +20,27 @@ public class diaDezessete {
     for (int i = 0; i <= 10; i++) {
       System.out.println(i);
     }
+  }
+
+  public static void two() {
+    int count = 0;
+    do {
+      System.out.print(count % 2 == 0 ? count : " ");
+      count++;
+    } while (count < 20);
+    count = 0;
+    while (count < 20) {
+      System.out.print(count % 2 == 0 ? count : " ");
+      count++;
+    }
+    for (count = 0; count < 20; count++) {
+      System.out.print(count % 2 == 0 ? count : " ");
+    }
+  }
+
+  public static void threee() {
+    int num, count = 0;
+
   }
 
   public static void nove() {

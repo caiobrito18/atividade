@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class diaDezesseis {
+public class DiaDezesseis {
   public static void main(String[] args) {
-    fetuccine();
+
   }
 
   public static void count() {
