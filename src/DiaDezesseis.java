@@ -2,10 +2,67 @@ import java.util.Scanner;
 
 public class DiaDezesseis {
   public static void main(String[] args) {
+    int opt;
+    Scanner input = new Scanner(System.in);
+    System.out.println("insira a atividade desejada (1 - 15)");
+    opt = input.nextInt();
 
+    switch (opt) {
+      case 1:
+        one();
+        break;
+
+      case 2:
+        two();
+        break;
+      case 3:
+        three();
+        break;
+      case 4:
+        four();
+        break;
+      case 5:
+        five();
+        break;
+      case 6:
+        six();
+        break;
+      case 7:
+        seven();
+        break;
+      case 8:
+        eight();
+        break;
+      case 9:
+        nine();
+        break;
+      case 10:
+        ten();
+        break;
+      case 11:
+        eleven();
+        break;
+      case 12:
+        twelve();
+        break;
+      case 13:
+        thirteen();
+        break;
+      case 14:
+        fourteen();
+        break;
+      case 15:
+        fifteen();
+        break;
+
+      default:
+        System.out.println("opção inválida");
+        break;
+    }
+    input.close();
   }
 
-  public static void count() {
+  public static void one() {
     // conta do número desejado até 100
 
     int num = 0;
@@ -22,7 +79,7 @@ public class DiaDezesseis {
     input.close();
   }
 
-  public static void countdec() {
+  public static void two() {
     // Conta de 100 à 1
     int odd = 100;
     while (odd >= 1) {
@@ -31,7 +88,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void countEven() {
+  public static void three() {
     // Conta os números pares até 100
     int even = 0;
     while (even < 100) {
@@ -40,7 +97,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void sqnum() {
+  public static void four() {
     int num = 0;
     while (num <= 20) {
       num++;
@@ -48,7 +105,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void countSum() {
+  public static void five() {
     int num = 0, sum = 0;
 
     while (num < 100) {
@@ -58,7 +115,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void inputSum() {
+  public static void six() {
     int num = 0, sum = 0;
 
     Scanner input = new Scanner(System.in);
@@ -71,7 +128,7 @@ public class DiaDezesseis {
     input.close();
   }
 
-  public static void fiveRoots() {
+  public static void seven() {
     double num1 = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0;
     double root1 = 0, root2 = 0, root3 = 0, root4 = 0, root5 = 0;
 
@@ -94,7 +151,7 @@ public class DiaDezesseis {
     input.close();
   }
 
-  public static void sumPairs() {
+  public static void eight() {
     int num = 25, sum = 0;
 
     while (num < 200) {
@@ -104,7 +161,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void countInterval() {
+  public static void nine() {
     // conta do 0 até número desejado
 
     int num = 0, interval = 0, inc = 0;
@@ -123,7 +180,7 @@ public class DiaDezesseis {
     input.close();
   }
 
-  public static void multiply() {
+  public static void ten() {
 
     int num1 = 0, num2 = 0, res = 0;
 
@@ -139,7 +196,7 @@ public class DiaDezesseis {
     input.close();
   }
 
-  public static void specificPower() {
+  public static void eleven() {
     double num1 = 0, num2 = 0, res = 0;
 
     Scanner input = new Scanner(System.in);
@@ -161,7 +218,7 @@ public class DiaDezesseis {
     System.out.println(res);
   }
 
-  public static void matrixPlot() {
+  public static void twelve() {
     double[][] matrix = new double[10][10];
     double random = 0;
     for (int i = 0; i < 10; i++) {
@@ -178,7 +235,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void matrixPlotDiag() {
+  public static void thirteen() {
     int[][] matrix = new int[10][10];
     double random = 0;
     int count2 = 0;
@@ -210,7 +267,7 @@ public class DiaDezesseis {
     }
   }
 
-  public static void Ricci() {
+  public static void fourteen() {
     int seed1 = 0, seed2 = 0, iterations = 0, swap = 0, plh = 0;
     Scanner input = new Scanner(System.in);
     System.out.println("insira o primeiro número:");
@@ -230,7 +287,7 @@ public class DiaDezesseis {
     input.close();
   }
 
-  public static void fetuccine() {
+  public static void fifteen() {
     int seed1 = 0, seed2 = 0, swap = 0;
     Scanner input = new Scanner(System.in);
     System.out.println("insira o primeiro número:");
